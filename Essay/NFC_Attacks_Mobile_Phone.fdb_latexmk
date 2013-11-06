@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex NFC_Attacks_Mobile_Phone"] 1383670428 "NFC_Attacks_Mobile_Phone.aux" "NFC_Attacks_Mobile_Phone.bbl" "NFC_Attacks_Mobile_Phone" 1383670429
+["bibtex NFC_Attacks_Mobile_Phone"] 1383733631 "NFC_Attacks_Mobile_Phone.aux" "NFC_Attacks_Mobile_Phone.bbl" "NFC_Attacks_Mobile_Phone" 1383733852
   "/usr/local/texlive/2013/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "NFC_Attacks_Mobile_Phone.aux" 1383670429 2028 f1f6a7fecb0203ded4f7eb14a51fd0c4 ""
+  "NFC_Attacks_Mobile_Phone.aux" 1383733852 2028 f1f6a7fecb0203ded4f7eb14a51fd0c4 ""
   "NFC_Attacks_Mobile_Phone.bcf" 0 -1 0 ""
   "references.bib" 1383670176 2839 29b4030c1f519d85e0d1aff6a3b30af7 ""
   (generated)
   "NFC_Attacks_Mobile_Phone.blg"
   "NFC_Attacks_Mobile_Phone.bbl"
-["pdflatex"] 1383670429 "NFC_Attacks_Mobile_Phone.tex" "NFC_Attacks_Mobile_Phone.pdf" "NFC_Attacks_Mobile_Phone" 1383670429
+["pdflatex"] 1383733851 "NFC_Attacks_Mobile_Phone.tex" "NFC_Attacks_Mobile_Phone.pdf" "NFC_Attacks_Mobile_Phone" 1383733852
   "/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty" 1303254447 8237 52810bdb4db2270e717422560a104aea ""
@@ -46,10 +46,10 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/preprint/fullpage.sty" 1137110595 2789 05b418f78b224ec872f5b11081138605 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty" 1264379145 21932 e3a9cf32ee9b853b42be14c2f25b873c ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/wrapfig/wrapfig.sty" 1137111090 26220 3701aebf80ccdef248c0c20dd062fea9 ""
-  "NFC_Attacks_Mobile_Phone.aux" 1383670429 2028 f1f6a7fecb0203ded4f7eb14a51fd0c4 ""
-  "NFC_Attacks_Mobile_Phone.bbl" 1383670429 975 fd98b1ee3fafd2920ea72eea99a6b607 "bibtex NFC_Attacks_Mobile_Phone"
-  "NFC_Attacks_Mobile_Phone.out" 1383670429 286 ef383ad134869287ec116befe89860ef ""
-  "NFC_Attacks_Mobile_Phone.tex" 1383670426 5585 0eda6d46f9883c5498534f5c06424136 ""
+  "NFC_Attacks_Mobile_Phone.aux" 1383733852 2028 f1f6a7fecb0203ded4f7eb14a51fd0c4 ""
+  "NFC_Attacks_Mobile_Phone.bbl" 1383733631 975 fd98b1ee3fafd2920ea72eea99a6b607 "bibtex NFC_Attacks_Mobile_Phone"
+  "NFC_Attacks_Mobile_Phone.out" 1383733852 286 ef383ad134869287ec116befe89860ef ""
+  "NFC_Attacks_Mobile_Phone.tex" 1383733851 5594 7a8f47dcce78ba73ad1662c91e1a5399 ""
   "linksys.jpg" 1383652512 28277 e4f61dfca5306115728275414df73ebb ""
   "nfc_stack.png" 1383652512 108028 fd35e48ebe7b2f6d3b1e9090ca4e6792 ""
   (generated)
