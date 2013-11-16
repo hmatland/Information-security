@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex NFC_Attacks_Mobile_Phone"] 1383733631 "NFC_Attacks_Mobile_Phone.aux" "NFC_Attacks_Mobile_Phone.bbl" "NFC_Attacks_Mobile_Phone" 1383733852
+["bibtex NFC_Attacks_Mobile_Phone"] 1384350863 "NFC_Attacks_Mobile_Phone.aux" "NFC_Attacks_Mobile_Phone.bbl" "NFC_Attacks_Mobile_Phone" 1384609489
   "/usr/local/texlive/2013/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "NFC_Attacks_Mobile_Phone.aux" 1383733852 2028 f1f6a7fecb0203ded4f7eb14a51fd0c4 ""
+  "NFC_Attacks_Mobile_Phone.aux" 1384350865 3113 a118ba8aaec07dacaf2b1a76193e840b ""
   "NFC_Attacks_Mobile_Phone.bcf" 0 -1 0 ""
-  "references.bib" 1383670176 2839 29b4030c1f519d85e0d1aff6a3b30af7 ""
+  "references.bib" 1384349720 5905 cebf664fe34f7f96cb8950bf38c45a97 ""
   (generated)
   "NFC_Attacks_Mobile_Phone.blg"
   "NFC_Attacks_Mobile_Phone.bbl"
-["pdflatex"] 1383733851 "NFC_Attacks_Mobile_Phone.tex" "NFC_Attacks_Mobile_Phone.pdf" "NFC_Attacks_Mobile_Phone" 1383733852
+["pdflatex"] 1384350864 "NFC_Attacks_Mobile_Phone.tex" "NFC_Attacks_Mobile_Phone.pdf" "NFC_Attacks_Mobile_Phone" 1384609489
   "/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty" 1303254447 8237 52810bdb4db2270e717422560a104aea ""
@@ -16,6 +16,7 @@
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty" 1335995445 8253 3bdedc8409aa5d290a2339be6f09af03 ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty" 1335995445 18425 775b341047ce304520cc7c11ca41392e ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls" 1254151887 20571 b8bd218bf2e18b4f5817ee643cd9c515 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty" 1254151887 5022 2ec7815b07dc68e65542e23a180bc839 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/base/inputenc.sty" 1254151887 4388 1cb2ca8d423695bd22ea8d126c276f33 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd" 1254151887 2109 c400bd6c901edc4a09e4d53fcffd3b3c ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/base/omsenc.dfu" 1254151887 1868 39c80c053f689193a1ca9a83d05b2744 ""
@@ -37,6 +38,8 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1279039959 678 4792914a8f45be57bb98413425e4c7af ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg" 1278958963 3563 d35e897cae3b8c6848f6677b73370b54 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/hyperref.cfg" 1254097189 235 6031e5765137be07eed51a510b2b8fb7 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/ms/everysel.sty" 1320274502 4623 936bfb87af7b91b6496a2317f80db16b ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/ms/ragged2e.sty" 1244852698 9938 95cd4dc3edfd2c1a9e8f3f4cc43db1ce ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/auxhook.sty" 1303254447 3834 707ef09f31d7d2ea47ba89974755dfe0 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty" 1303254447 12029 04d7fdf76e0464c23b5aa3a727952d7c ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty" 1335995445 7075 bd0c34fbf1ae8fd1debd2a554e41b2d5 ""
@@ -44,14 +47,15 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty" 1303254447 9581 1158efc648bc09d5064db5703c882159 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def" 1306616590 55368 3c8a0d99822330f2dfabc0dfb09ce897 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/preprint/fullpage.sty" 1137110595 2789 05b418f78b224ec872f5b11081138605 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/sidecap/sidecap.sty" 1137110811 10526 e4fd75d883a0e21600bac6a209f020eb ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty" 1264379145 21932 e3a9cf32ee9b853b42be14c2f25b873c ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/wrapfig/wrapfig.sty" 1137111090 26220 3701aebf80ccdef248c0c20dd062fea9 ""
-  "NFC_Attacks_Mobile_Phone.aux" 1383733852 2028 f1f6a7fecb0203ded4f7eb14a51fd0c4 ""
-  "NFC_Attacks_Mobile_Phone.bbl" 1383733631 975 fd98b1ee3fafd2920ea72eea99a6b607 "bibtex NFC_Attacks_Mobile_Phone"
-  "NFC_Attacks_Mobile_Phone.out" 1383733852 286 ef383ad134869287ec116befe89860ef ""
-  "NFC_Attacks_Mobile_Phone.tex" 1383733851 5594 7a8f47dcce78ba73ad1662c91e1a5399 ""
+  "NFC_Attacks_Mobile_Phone.aux" 1384350865 3113 a118ba8aaec07dacaf2b1a76193e840b ""
+  "NFC_Attacks_Mobile_Phone.bbl" 1384350864 3149 70f81e45fc4f326170419d7a674e75ab "bibtex NFC_Attacks_Mobile_Phone"
+  "NFC_Attacks_Mobile_Phone.out" 1384350865 693 0109c27eb58b6d1679a382c708a55f13 ""
+  "NFC_Attacks_Mobile_Phone.tex" 1384350856 7548 11d938821e48799b77ce2ed0be7c8fa6 ""
+  "SD_SmartPoster1.png" 1383750549 35786 3ba8edef74e6babaa8bd3476c1ea912f ""
   "linksys.jpg" 1383652512 28277 e4f61dfca5306115728275414df73ebb ""
-  "nfc_stack.png" 1383652512 108028 fd35e48ebe7b2f6d3b1e9090ca4e6792 ""
   (generated)
   "NFC_Attacks_Mobile_Phone.aux"
   "NFC_Attacks_Mobile_Phone.log"
