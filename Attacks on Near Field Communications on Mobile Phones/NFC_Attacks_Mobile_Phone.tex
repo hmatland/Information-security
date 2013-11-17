@@ -29,10 +29,11 @@ The Near Field Communication (NFC) technology is being deployed in mobile phones
 
 \paragraph{}NFC is a set of standards for devices to establish radio communication with each other by bringing them in close proximity, usually not more then a few centimeters. The standards are based on RFID, and mixed with other standards cover data exchange formats and communication protocols. Communication is possible between two NFC enabled devices, or a NFC enabled device and unpowered NFC chip.
 
-\paragraph{}The need of security and robustness is very important, as an insecure and attackable device would give criminals new ways to steal funds, or simply take control over the device. Different attacks have been proven successful and malicious, and the threat should be taken seriously by both individuals and corporations. Simple RFID-stickers and vulnerabilities in software is all an attacker need to do harm. This essay will present and discuss some of the successful attacks previously demonstrated by experts in the field of NFC and security.
+
+\paragraph{}The need of security and robustness is very important, as an insecure and attackable device would give criminals new ways to steal funds, or simply take control over the device. Different attacks have been proven successful and malicious, and the threat should be taken seriously by both individuals and corporations. Simple RFID-stickers and vulnerabilities in software is all an attacker need to do harm. This essay will present and discuss some of the successful or potential attacks previously demonstrated by experts in the field of NFC and security.
 
 
-\section{Threats on NFC enables devices}
+\section{Potential threats on NFC enables devices}
 \begin{wrapfigure}[10]{R}{0.45\textwidth}
   \centering
   \vspace{-2cm}
@@ -44,28 +45,35 @@ The Near Field Communication (NFC) technology is being deployed in mobile phones
 \subsection{Smart poster URI spoofing}
 
 With the deployment of NFC capable mobile phone, the concept of smart posters came.
-The poster is used to advertise or give the customer a service. The user only has to tap their NFC enabled mobile phone in close proximity to the advertisement, and something happens on the phone~\cite{ruiz2009university}~\cite{smartposter}. Through social engineering or software vulnerabilities this can be exploited. Changing the RFID chip in the poster makes it possible for customers to believe they are accessing a legitimate service, while they are not.
+The poster is used to advertise or give the customer a service. The user only has to tap their NFC enabled mobile phone in close proximity to the advertisement, and something happens on the phone~\cite{ruiz2009university}~\cite{smartposter}. Through social engineering or software vulnerabilities this can be exploited. Changing the RFID chip in the poster makes it possible for customers to believe they are accessing a legitimate service, while they are not. 
 
-\subsubsection{Web browser exploits}
+\subsubsection{Web browser exploits and malicious software download}
 
 A possible scenario is an user tapping their phone on a smart poster to gain the URL of a service. If an attacker has changed the RFID chip to one of his own, he can trick the users to enter a spoofed URL, with the goal of phishing sensitive information through a login or sign up form. 
 
 In 2012 security researcher Charlie Miller proved how he with a simple RFID sticker could gain full root shell access on an Android phone~\cite{cmiller}~\cite{cmiller1}. With full root shell acces, several exploits are possible. Charlie miller was able to download every file on the  Although the attack primarily used exploitable bugs in the browser, the attack was triggered by the mobile phones NFC.
 
-\subsubsection{Malicious software download}
-The concept described in the previous section can also be used more explicitly to run malicious code on the device. The attacker has the possibility to trick the user into downloading an application to install directly. On Android devices you could simply use the smart poster to direct the user to a .apk file on the internet. If the poster is trying to advertise an app, a user not thinking critically might install the application, and make the device send all kind of data to the attacker.
+\paragraph{}
+The concept described in the previous above can also be used more explicitly to run malicious code on the device. The attacker has the possibility to trick the user into downloading an application to install directly. On Android devices you could simply use the smart poster to direct the user to a .apk file on the internet. If the poster is trying to advertise an app, a user not thinking critically might install the application, and make the device send all kind of data to the attacker. The application may appear like the one the user wanted to download, with a similar name and icon.
 
 \subsubsection{Premium rated telephone services}
 
 Similar to have a RFID chip send a web URL, it can also be used to invoke telephone connections or sending sms~\cite{mulliner2009vulnerability}. The user might be asked if he wants to call or send, but some users will likely not pay attention to what is says on the screen if it is received from what looks to be a legitimate source. This opens a whole new range of premium service rate scams. A poster claiming to let you call a free service might suddenly make an user call an expensive premium rate number. A user trying to purchase something from a vending machine might end up with a high phone bill, and no snack.
 
+\subsection{Dirty use of USSD codes})
+Unstructured Supplementary Service Data (USSD) is a protocol used by GSM cellular telephones to communicate with the service provider's computers. Some device manufacturers have also implemteded their own set of USSD codes to make the device change or view settings. Several devices also have USSD codes to reboot the device, or even factory reset the device.
+
+
+In 2012 security expert Ravi Borgaonkar showed how USSD codes could be used in NFC attacks~\cite{USSD}.
+
+
+
 \subsection{Eavesdropping}
-As with every other wireless communication interface eavesdropping is an obvious threat. If the communication is not properly encrypted and secured, parties not participating in the transmission of data may capture the radio frequencies and store them for analysis. An experiment as part of the master thesis by Henning Siitonen Kortvedt at the Norwegian University of Science and Technology concluded that it is practical possible to capture and demodulate data sent in both directions between two NFC devices~\cite{kortvedt2009eavesdropping}~\cite{kortvedt2009securing}.
+As with every other wireless communication interface eavesdropping is an obvious threat. If the communication is not properly encrypted and secured, parties not participating in the transmission of data may capture the radio frequencies and store them for analysis. An experiment as part of the master thesis by Henning Siitonen Kortvedt at the Norwegian University of Science and Technology concluded that it is practical possible to capture and demodulate data sent in both directions between two NFC devices~\cite{kortvedt2009eavesdropping}~\cite{kortvedt2009securing}. If the data communicated is not correctly secured, the threat of eavesdropping is quite clear. No services benefit from giving illegitimate third parties the opportunity to eavesdrop on the communication of the service. 
 
 
 \subsection{Denial-of-Service attacks}
 A Denial-of-service attack(DoS attack) is an attempt to make a service unavailable to its intended users. The motivation for an attacker to perform a DoS attack may vary, but the result is nonetheless destructive. DoS attacks may be used to destroy the trust relationship between the customer and the service provider.
-\subsection{Requirements of Form}
 
 
 \section{Conclusion}
